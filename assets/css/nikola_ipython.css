@@ -1,7 +1,7 @@
 div.prompt {
   padding: 0.6em;
   font-size: 13px;
-  background-color: #E9E9E9;
+  background-color: #f9f9f9;
   margin-right: 1em;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -10,7 +10,7 @@ div.prompt {
 
 div.output_prompt {
   /* 5px right shift to account for margin in parent container */
-  margin: 0 5px 0 0px;
+  margin: 0 5px 5px 0px;
 }
 
 div.output_area pre {
@@ -40,7 +40,7 @@ div.text_cell_render {
 
 .rendered_html pre, .rendered_html code {
   background-color: #DDDDDD;
-  margin: 1em 0em;
+  margin: 1em 1em;
   font-size: 14px;
 }
 

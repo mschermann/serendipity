@@ -1,4 +1,4 @@
-Sitemap: https://example.com/sitemapindex.xml
+Sitemap: https://mschermann.github.io/serendipity/sitemapindex.xml
 
 User-Agent: *
-Host: example.com
+Host: mschermann.github.io
