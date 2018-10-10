@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+h2,h3,h4,h1 {
+    padding-bottom: 5px;
+}
+
 #contentcolumn {
     max-width: 760px;
 }
