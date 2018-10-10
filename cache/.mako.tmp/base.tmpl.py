@@ -5,12 +5,12 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1539198256.950614
+_modified_time = 1539198440.5122838
 _enable_loop = True
 _template_filename = 'themes/bootstrap3/templates/base.tmpl'
 _template_uri = 'base.tmpl'
 _source_encoding = 'utf-8'
-_exports = ['extra_head', 'belowtitle', 'sourcelink', 'content', 'extra_js']
+_exports = ['extra_head', 'belowtitle', 'content', 'extra_js']
 
 
 def _mako_get_namespace(context, name):
@@ -33,35 +33,32 @@ def render_body(context,**pageargs):
         _import_ns = {}
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         _mako_get_namespace(context, 'notes')._populate(_import_ns, ['*'])
-        show_blog_title = _import_ns.get('show_blog_title', context.get('show_blog_title', UNDEFINED))
         def extra_js():
             return render_extra_js(context._locals(__M_locals))
-        len = _import_ns.get('len', context.get('len', UNDEFINED))
-        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
-        date_fanciness = _import_ns.get('date_fanciness', context.get('date_fanciness', UNDEFINED))
         js_date_format = _import_ns.get('js_date_format', context.get('js_date_format', UNDEFINED))
-        def sourcelink():
-            return render_sourcelink(context._locals(__M_locals))
-        logo_url = _import_ns.get('logo_url', context.get('logo_url', UNDEFINED))
-        content_footer = _import_ns.get('content_footer', context.get('content_footer', UNDEFINED))
-        template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
-        set_locale = _import_ns.get('set_locale', context.get('set_locale', UNDEFINED))
+        len = _import_ns.get('len', context.get('len', UNDEFINED))
+        translations = _import_ns.get('translations', context.get('translations', UNDEFINED))
         def extra_head():
             return render_extra_head(context._locals(__M_locals))
-        body_end = _import_ns.get('body_end', context.get('body_end', UNDEFINED))
-        _link = _import_ns.get('_link', context.get('_link', UNDEFINED))
+        set_locale = _import_ns.get('set_locale', context.get('set_locale', UNDEFINED))
         base = _mako_get_namespace(context, 'base')
-        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
-        search_form = _import_ns.get('search_form', context.get('search_form', UNDEFINED))
+        template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
+        abs_link = _import_ns.get('abs_link', context.get('abs_link', UNDEFINED))
+        blog_title = _import_ns.get('blog_title', context.get('blog_title', UNDEFINED))
         def belowtitle():
             return render_belowtitle(context._locals(__M_locals))
-        blog_title = _import_ns.get('blog_title', context.get('blog_title', UNDEFINED))
+        logo_url = _import_ns.get('logo_url', context.get('logo_url', UNDEFINED))
         def content():
             return render_content(context._locals(__M_locals))
-        abs_link = _import_ns.get('abs_link', context.get('abs_link', UNDEFINED))
-        show_sourcelink = _import_ns.get('show_sourcelink', context.get('show_sourcelink', UNDEFINED))
+        search_form = _import_ns.get('search_form', context.get('search_form', UNDEFINED))
+        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
+        body_end = _import_ns.get('body_end', context.get('body_end', UNDEFINED))
+        _link = _import_ns.get('_link', context.get('_link', UNDEFINED))
+        date_fanciness = _import_ns.get('date_fanciness', context.get('date_fanciness', UNDEFINED))
+        messages = _import_ns.get('messages', context.get('messages', UNDEFINED))
+        content_footer = _import_ns.get('content_footer', context.get('content_footer', UNDEFINED))
+        show_blog_title = _import_ns.get('show_blog_title', context.get('show_blog_title', UNDEFINED))
         momentjs_locales = _import_ns.get('momentjs_locales', context.get('momentjs_locales', UNDEFINED))
-        translations = _import_ns.get('translations', context.get('translations', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -107,15 +104,7 @@ def render_body(context,**pageargs):
             context['self'].belowtitle(**pageargs)
         
 
-        __M_writer('\n')
-        if show_sourcelink:
-            __M_writer('                    ')
-            if 'parent' not in context._data or not hasattr(context._data['parent'], 'sourcelink'):
-                context['self'].sourcelink(**pageargs)
-            
-
-            __M_writer('\n')
-        __M_writer('                ')
+        __M_writer('\n                ')
         __M_writer(str(template_hooks['menu_alt']()))
         __M_writer('\n            </ul>\n        </div><!-- /.navbar-collapse -->\n    </div><!-- /.container -->\n</nav>\n\n<!-- End of Menubar -->\n\n<div class="container" id="content" role="main">\n    <div class="body-content">\n        <!--Body content-->\n        <div class="row">\n            ')
         __M_writer(str(template_hooks['page_header']()))
@@ -172,11 +161,11 @@ def render_belowtitle(context,**pageargs):
         _import_ns = {}
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         _mako_get_namespace(context, 'notes')._populate(_import_ns, ['*'])
+        base = _mako_get_namespace(context, 'base')
+        translations = _import_ns.get('translations', context.get('translations', UNDEFINED))
         def belowtitle():
             return render_belowtitle(context)
-        translations = _import_ns.get('translations', context.get('translations', UNDEFINED))
         len = _import_ns.get('len', context.get('len', UNDEFINED))
-        base = _mako_get_namespace(context, 'base')
         __M_writer = context.writer()
         __M_writer('\n')
         if len(translations) > 1:
@@ -184,20 +173,6 @@ def render_belowtitle(context,**pageargs):
             __M_writer(str(base.html_translations()))
             __M_writer('</li>\n')
         __M_writer('                ')
-        return ''
-    finally:
-        context.caller_stack._pop_frame()
-
-
-def render_sourcelink(context,**pageargs):
-    __M_caller = context.caller_stack._push_frame()
-    try:
-        _import_ns = {}
-        _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
-        _mako_get_namespace(context, 'notes')._populate(_import_ns, ['*'])
-        def sourcelink():
-            return render_sourcelink(context)
-        __M_writer = context.writer()
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -233,6 +208,6 @@ def render_extra_js(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"filename": "themes/bootstrap3/templates/base.tmpl", "uri": "base.tmpl", "source_encoding": "utf-8", "line_map": {"23": 2, "26": 3, "29": 0, "66": 2, "67": 3, "68": 4, "69": 4, "70": 5, "71": 5, "76": 8, "77": 9, "78": 9, "79": 12, "80": 12, "81": 20, "82": 20, "83": 25, "84": 25, "85": 26, "86": 27, "87": 27, "88": 27, "89": 27, "90": 27, "91": 29, "92": 30, "93": 31, "94": 31, "95": 31, "96": 33, "97": 37, "98": 37, "99": 38, "100": 38, "101": 40, "102": 41, "103": 41, "104": 41, "105": 43, "110": 49, "111": 50, "112": 51, "117": 51, "118": 53, "119": 53, "120": 53, "121": 65, "122": 65, "127": 66, "128": 71, "129": 71, "130": 72, "131": 72, "132": 77, "133": 77, "134": 80, "135": 80, "136": 81, "137": 81, "138": 81, "139": 81, "144": 84, "145": 92, "146": 92, "147": 93, "148": 93, "154": 6, "163": 6, "169": 45, "181": 45, "182": 46, "183": 47, "184": 47, "185": 47, "186": 49, "192": 51, "206": 66, "220": 84, "234": 220}}
+{"filename": "themes/bootstrap3/templates/base.tmpl", "uri": "base.tmpl", "source_encoding": "utf-8", "line_map": {"23": 2, "26": 3, "29": 0, "63": 2, "64": 3, "65": 4, "66": 4, "67": 5, "68": 5, "73": 8, "74": 9, "75": 9, "76": 12, "77": 12, "78": 20, "79": 20, "80": 25, "81": 25, "82": 26, "83": 27, "84": 27, "85": 27, "86": 27, "87": 27, "88": 29, "89": 30, "90": 31, "91": 31, "92": 31, "93": 33, "94": 37, "95": 37, "96": 38, "97": 38, "98": 40, "99": 41, "100": 41, "101": 41, "102": 43, "107": 49, "108": 50, "109": 50, "110": 62, "111": 62, "116": 63, "117": 68, "118": 68, "119": 69, "120": 69, "121": 74, "122": 74, "123": 77, "124": 77, "125": 78, "126": 78, "127": 78, "128": 78, "133": 81, "134": 89, "135": 89, "136": 90, "137": 90, "143": 6, "152": 6, "158": 45, "170": 45, "171": 46, "172": 47, "173": 47, "174": 47, "175": 49, "181": 63, "195": 81, "209": 195}}
 __M_END_METADATA
 """
