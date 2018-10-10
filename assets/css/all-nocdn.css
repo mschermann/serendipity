@@ -35,6 +35,10 @@
 .align-bottom { vertical-align: bottom; }
 
 /* titles */
+h2,h3,h4,h1 {
+    padding-bottom: 5px;
+}
+
 h1.title, p.subtitle {
   text-align: center;
 }
