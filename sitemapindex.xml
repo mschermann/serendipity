@@ -6,27 +6,15 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://mschermann.github.io/serendipity/galleries/rss%20%28Michael%E2%80%99s%20MacBook%20Pro%27s%20conflicted%20copy%202018-10-10%29.xml</loc>
-  <lastmod>2018-10-10T19:07:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://mschermann.github.io/serendipity/galleries/rss.xml</loc>
   <lastmod>2018-12-03T07:02:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://mschermann.github.io/serendipity/rss%20%28Michael%E2%80%99s%20MacBook%20Pro%27s%20conflicted%20copy%202018-10-10%29.xml</loc>
-  <lastmod>2018-10-10T18:59:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://mschermann.github.io/serendipity/rss.xml</loc>
   <lastmod>2018-12-03T07:02:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://mschermann.github.io/serendipity/sitemap%20%28Michael%E2%80%99s%20MacBook%20Pro%27s%20conflicted%20copy%202018-10-10%29.xml</loc>
-  <lastmod>2018-10-10T19:07:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://mschermann.github.io/serendipity/sitemap.xml</loc>
-  <lastmod>2018-12-03T07:03:00Z</lastmod>
+  <lastmod>2018-12-03T07:04:00Z</lastmod>
  </sitemap>
 </sitemapindex>
