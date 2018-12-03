@@ -7,26 +7,54 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://mschermann.github.io/serendipity/</loc>
-  <lastmod>2018-10-10T18:09:00Z</lastmod>
+  <lastmod>2018-10-10T19:41:00Z</lastmod>
  </url>
  <url>
-  <loc>https://mschermann.github.io/serendipity/archive.html</loc>
+  <loc>https://mschermann.github.io/serendipity/archive%20%28Michael%E2%80%99s%20MacBook%20Pro%27s%20conflicted%20copy%202018-10-10%29.html</loc>
   <lastmod>2018-10-10T19:07:00Z</lastmod>
  </url>
  <url>
+  <loc>https://mschermann.github.io/serendipity/archive.html</loc>
+  <lastmod>2018-12-03T07:02:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://mschermann.github.io/serendipity/categories/</loc>
-  <lastmod>2018-10-10T17:43:00Z</lastmod>
+  <lastmod>2018-10-10T19:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://mschermann.github.io/serendipity/categories/index%20%28Michael%E2%80%99s%20MacBook%20Pro%27s%20conflicted%20copy%202018-10-10%29.html</loc>
+  <lastmod>2018-10-10T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://mschermann.github.io/serendipity/galleries/</loc>
-  <lastmod>2018-10-10T17:43:00Z</lastmod>
+  <lastmod>2018-10-10T19:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://mschermann.github.io/serendipity/galleries/index%20%28Michael%E2%80%99s%20MacBook%20Pro%27s%20conflicted%20copy%202018-10-10%29.html</loc>
+  <lastmod>2018-10-10T19:07:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://mschermann.github.io/serendipity/index%20%28Michael%E2%80%99s%20MacBook%20Pro%27s%20conflicted%20copy%202018-10-10%29.html</loc>
+  <lastmod>2018-10-10T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://mschermann.github.io/serendipity/listings/</loc>
-  <lastmod>2018-10-10T17:43:00Z</lastmod>
+  <lastmod>2018-10-10T19:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://mschermann.github.io/serendipity/listings/index%20%28Michael%E2%80%99s%20MacBook%20Pro%27s%20conflicted%20copy%202018-10-10%29.html</loc>
+  <lastmod>2018-10-10T19:07:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://mschermann.github.io/serendipity/posts/loaded-climate-dice-update/</loc>
+  <lastmod>2018-12-03T07:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://mschermann.github.io/serendipity/posts/loaded-climate-dice/</loc>
-  <lastmod>2018-10-10T17:43:00Z</lastmod>
+  <lastmod>2018-10-10T19:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://mschermann.github.io/serendipity/posts/loaded-climate-dice/index%20%28Michael%E2%80%99s%20MacBook%20Pro%27s%20conflicted%20copy%202018-10-10%29.html</loc>
+  <lastmod>2018-10-10T19:07:00Z</lastmod>
  </url>
 </urlset>
