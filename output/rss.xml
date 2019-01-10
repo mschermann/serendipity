@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Serendipity</title><link>https://mschermann.github.io/serendipity/</link><description>Poking a dead racoon is not research!</description><atom:link href="https://mschermann.github.io/serendipity/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:michael.schermann@gmail.com"&gt;Michael Schermann&lt;/a&gt; &lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons Attribution-ShareAlike 4.0 International License&lt;/a&gt;.</copyright><lastBuildDate>Mon, 03 Dec 2018 07:35:51 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>An update on the loaded climate dice</title><link>https://mschermann.github.io/serendipity/posts/loaded-climate-dice-update/</link><dc:creator>Michael Schermann</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Serendipity</title><link>https://mschermann.github.io/serendipity/</link><description>Poking a dead racoon is not research!</description><atom:link href="https://mschermann.github.io/serendipity/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:michael.schermann@gmail.com"&gt;Michael Schermann&lt;/a&gt; &lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons Attribution-ShareAlike 4.0 International License&lt;/a&gt;.</copyright><lastBuildDate>Thu, 10 Jan 2019 01:47:37 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Osiris Therapeutics - A trip to the underworld and back</title><link>https://mschermann.github.io/serendipity/posts/osiris-fraud-case/</link><dc:creator>Michael Schermann</dc:creator><description>&lt;div&gt;&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id='Osiris-Therapeutics---A-trip-to-the-"underworld"-and-back'&gt;Osiris Therapeutics - A trip to the "underworld" and back&lt;a class="anchor-link" href="https://mschermann.github.io/serendipity/posts/osiris-fraud-case/#Osiris-Therapeutics---A-trip-to-the-%22underworld%22-and-back"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h3 id="Introduction"&gt;Introduction&lt;a class="anchor-link" href="https://mschermann.github.io/serendipity/posts/osiris-fraud-case/#Introduction"&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;On November 2, 2017, the U.S. Securities and Exchange Commission filed &lt;a href="https://www.sec.gov/news/press-release/2017-207"&gt;charges&lt;/a&gt; against Osiris Therapeutics for fraudulent financial statements. Osiris Therapeutics settled the case by &lt;a href="https://www.sec.gov/news/press-release/2017-207"&gt;paying a penalty of USD 1.5 million&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;blockquote&gt;&lt;p&gt;The SEC alleges that Osiris Therapeutics routinely &lt;strong&gt;overstated company performance&lt;/strong&gt; and issued fraudulent financial statements for a period of nearly two years.  According to the SEC’s complaint, the company &lt;strong&gt;improperly recognized revenue using artificially inflated prices&lt;/strong&gt;, backdated documents to &lt;strong&gt;recognize revenue in earlier periods&lt;/strong&gt;, and &lt;strong&gt;prematurely recognized revenue upon delivery of products to be held on consignment&lt;/strong&gt;.  Osiris Therapeutics and its executives also allegedly used pricing data that they knew was false and attempted to book revenue on a fictitious transaction, among other accounting improprieties. (Source: &lt;a href="https://www.sec.gov/news/press-release/2017-207"&gt;SEC Press Release&lt;/a&gt;, highlights added)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The full SEC complaint can be downloaded here: &lt;a href="https://www.sec.gov/litigation/complaints/2017/comp-pr2017-207.pdf"&gt;Case 1:17-cv-03230-CCB&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mschermann.github.io/serendipity/posts/osiris-fraud-case/"&gt;Read more…&lt;/a&gt; (58 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><guid>https://mschermann.github.io/serendipity/posts/osiris-fraud-case/</guid><pubDate>Thu, 10 Jan 2019 00:52:05 GMT</pubDate></item><item><title>An update on the loaded climate dice</title><link>https://mschermann.github.io/serendipity/posts/loaded-climate-dice-update/</link><dc:creator>Michael Schermann</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;One of the recurring claims you will find in discussions of climate change is that the climate in general not only becomes warmer but also more extreme. For instance, the latest report on climate change by the U.S. Administration is covered in the news as follows:&lt;/p&gt;
